@@ -1,0 +1,23 @@
+.env*.local
+
+# Next.js
+.next/
+out/
+node_modules/
+
+# Python legacy
+legacy/**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Bot runtime artifacts
+logs/
+state.*.json
+*.log
+
+# IDE
+.idea/
+
+.vercel
+config.bat
